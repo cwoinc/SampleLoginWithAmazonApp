@@ -28,7 +28,10 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file("debug.3p.keystore")
+            keyAlias 'test456'
+            storeFile file('/home/king/diy/script/key/20200827_esp_apk.jks')
+            storePassword 'Wantdo.123'
+            keyPassword 'Wantdo.123456'
         }
     }
 }
